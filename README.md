@@ -42,7 +42,7 @@ The integration of a dedicated Note Taker agent sets this system apart from trad
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/starpig1129/ai-data-analysis-MulitAgent.git
+git clone https://github.com/AIXerum/ai-data-analysis-MulitAgent.git
 ```
 2. Create and activate a Conda virtual environment:
 ```bash
@@ -70,15 +70,15 @@ CHROMEDRIVER_PATH =./chromedriver-linux64/chromedriver
 
 # Firecrawl API key (optional)
 # Note: If this key is missing, query capabilities may be reduced
-FIRECRAWL_API_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FIRECRAWL_API_KEY = 
 
 # OpenAI API key (required)
 # Warning: This key is essential; the program will not run without it
-OPENAI_API_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+OPENAI_API_KEY = 
 
 # LangChain API key (optional)
 # Used for monitoring the processing
-LANGCHAIN_API_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+LANGCHAIN_API_KEY = 
 ```
 ## Usage
 
@@ -129,24 +129,3 @@ You can customize the system behavior by modifying the agent creation and workfl
 2. NoteTaker Efficiency Improvement
 3. Overall Runtime Optimization
 4. Refiner needs to be better
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=starpig1129/Multi-agent-DataAnalysis&type=Date)](https://star-history.com/#starpig1129/Multi-agent-DataAnalysis&Date)
-
-## Other Projects
-Here are some of my other notable projects:
-### ShareLMAPI
-ShareLMAPI is a local language model sharing API that uses FastAPI to provide interfaces, allowing different programs or device to share the same local model, thereby reducing resource consumption. It supports streaming generation and various model configuration methods.
-- GitHub: [ShareLMAPI](https://github.com/starpig1129/ShareLMAPI)
-### PigPig: Advanced Multi-modal LLM Discord Bot: 
-A powerful Discord bot based on multi-modal Large Language Models (LLM), designed to interact with users through natural language. 
-It combines advanced AI capabilities with practical features, offering a rich experience for Discord communities.
-- GitHub: [ai-discord-bot-PigPig](https://github.com/starpig1129/ai-discord-bot-PigPig)
